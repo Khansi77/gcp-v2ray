@@ -1,6 +1,6 @@
 ## Cloud Shell Script 👇
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/nyeinkokoaung404/gcp-v2ray/refs/heads/main/cloud-run.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/Khansi77/gcp-v2ray/main/cloud-run.sh)
 ```
 
 # ⚡ VLESS over WebSocket (WS) on Google Cloud Run + CDN
