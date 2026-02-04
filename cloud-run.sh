@@ -36,14 +36,12 @@ else
 fi
 
 # ================= CHANNEL KhansiNet Banner =================
-
 show_404_banner() {
   clear
   printf "\n"
   printf "  ${C_404_GREEN} KhansiNet VLESS Deployment System${RESET}\n"
   printf "  ${C_404_YELLOW} Google Cloud Run  WebSocket  CDN${RESET}\n"
   printf "\n"
-}
 }
 
 # =================== Custom UI Functions ===================
