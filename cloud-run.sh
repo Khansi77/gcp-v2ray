@@ -387,7 +387,7 @@ printf "   ${C_404_CYAN}${BOLD}%s${RESET}\n\n" "${URL_CANONICAL}"
 
 # =================== VLESS Configuration ===================
 VLESS_UUID="ba0e3984-ccc9-48a3-8074-b2f507f41ce8"
-URI="vless://${VLESS_UUID}@vpn.googleapis.com:443?path=%2F%40nkka404&security=tls&encryption=none&host=${CANONICAL_HOST}&type=ws&sni=${CANONICAL_HOST}#CHANNEL-404-VLESS-WS"
+URI="vless://${VLESS_UUID}@vpn.googleapis.com:443?path=%2Fkhansinet&security=tls&encryption=none&host=${CANONICAL_HOST}&type=ws&sni=${CANONICAL_HOST}#CHANNEL-404-VLESS-WS"
 
 printf "${C_404_GREEN}${BOLD}🔑 VLESS CONFIGURATION:${RESET}\n"
 printf "   ${C_404_CYAN}%s${RESET}\n\n" "${URI}"
@@ -396,7 +396,7 @@ printf "${C_404_GREEN}${BOLD}📋 CONFIGURATION DETAILS:${RESET}\n"
 show_kv "UUID:" "$VLESS_UUID"
 show_kv "Host:" "vpn.googleapis.com"
 show_kv "Port:" "443"
-show_kv "Path:" "/@nkka404"
+show_kv "Path:" "/@Khansnet"
 show_kv "Security:" "TLS"
 show_kv "Transport:" "WebSocket"
 show_kv "SNI:" "${CANONICAL_HOST}"
@@ -422,7 +422,7 @@ MSG=$(cat <<EOF
 <blockquote>🕒 <b>Deployed:</b> ${START_LOCAL}
 ⏳ <b>Expires:</b> ${END_LOCAL}</blockquote>
 ━━━━━━━━━━━━━━━━━━━━━━━━━━
-<b>Powered by CHANNEL 404</b>
+<b>Powered by KhansiNet</b>
 EOF
 )
 
