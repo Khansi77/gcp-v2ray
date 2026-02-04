@@ -39,22 +39,18 @@ fi
 
 show_404_banner() {
   clear
-  printf "\n\n"
-  printf "${C_404_RED}${BOLD}"
-  printf "╔══════════════════════════════════════════════════════════════════╗\n"
-  printf "║    ${C_404_CYAN} ___   ___          ________          ___   ___                               ${C_404_RED}\n"
-  printf "║    ${C_404_CYAN}|\  \ |\  \        |\   __  \        |\  \ |\  \                              ${C_404_RED}\n"
-  printf "║    ${C_404_CYAN}\ \  \|_\  \       \ \  \|\  \       \ \  \|_\  \                             ${C_404_RED}\n"
-  printf "║    ${C_404_CYAN} \ \______  \       \ \  \/\  \       \ \______  \                            ${C_404_RED}\n"
-  printf "║    ${C_404_CYAN}  \|_____|\  \       \ \  \/\  \       \|_____|\  \                           ${C_404_RED}\n"
-  printf "║    ${C_404_CYAN}         \ \__\       \ \_______\             \ \__\                          ${C_404_RED}\n"
-  printf "║    ${C_404_CYAN}          \|__|        \|_______|              \|__|                          ${C_404_RED}\n"
-  printf "║                                                                                               ${C_404_RED}\n"
-  printf "║         ${C_404_YELLOW}🚀 VLESS WS DEPLOYMENT SYSTEM => VERSION - 2.0                         ${C_404_RED}\n"
-  printf "║         ${C_404_GREEN}⚡ Powered by CHANNEL 404                                               ${C_404_RED}\n"
-  printf "║                                                                                               ${C_404_RED}\n"
-  printf "╚══════════════════════════════════════════════════════════════════╝${RESET}\n"
-  printf "\n\n"
+  printf "\n"
+  printf "${C_404_CYAN}            ${RESET}\n"
+  printf "${C_404_CYAN}       ${RESET}\n"
+  printf "${C_404_CYAN}           ${RESET}\n"
+  printf "${C_404_CYAN}         ${RESET}\n"
+  printf "${C_404_CYAN}              ${RESET}\n"
+  printf "${C_404_CYAN}                ${RESET}\n"
+  printf "\n"
+  printf "  ${C_404_GREEN} KhansiNet VLESS Deployment System\n"
+  printf "  ${C_404_YELLOW} Google Cloud Run  WebSocket  CDN\n"
+  printf "\n"
+}
 }
 
 # =================== Custom UI Functions ===================
