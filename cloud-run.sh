@@ -35,20 +35,13 @@ else
   RESET= BOLD= C_404_RED= C_404_BLUE= C_404_GREEN= C_404_YELLOW= C_404_PURPLE= C_404_GRAY= C_404_CYAN=
 fi
 
-# =================== CHANNEL 404 Banner ===================
+# ================= CHANNEL KhansiNet Banner =================
 
 show_404_banner() {
   clear
   printf "\n"
-  printf "${C_404_CYAN}            ${RESET}\n"
-  printf "${C_404_CYAN}       ${RESET}\n"
-  printf "${C_404_CYAN}           ${RESET}\n"
-  printf "${C_404_CYAN}         ${RESET}\n"
-  printf "${C_404_CYAN}              ${RESET}\n"
-  printf "${C_404_CYAN}                ${RESET}\n"
-  printf "\n"
-  printf "  ${C_404_GREEN} KhansiNet VLESS Deployment System\n"
-  printf "  ${C_404_YELLOW} Google Cloud Run  WebSocket  CDN\n"
+  printf "  ${C_404_GREEN} KhansiNet VLESS Deployment System${RESET}\n"
+  printf "  ${C_404_YELLOW} Google Cloud Run  WebSocket  CDN${RESET}\n"
   printf "\n"
 }
 }
