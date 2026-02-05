@@ -377,6 +377,7 @@ printf "\n${C_404_GREEN}${BOLD}📡 SERVICE ENDPOINT:${RESET}\n"
 printf "   ${C_404_CYAN}${BOLD}%s${RESET}\n\n" "${URL_CANONICAL}"
 
 # =================== VLESS Configuration ===================
+VLESS_UUID="ba0e3984-ccc9-48a3-8074-b2f507f41ce8"
 URI="vless://${VLESS_UUID}@${CANONICAL_HOST}:443?path=%2F@nkka404&security=tls&encryption=none&type=ws&sni=${CANONICAL_HOST}#KS_NNET_CHANNEL"
 printf "${C_404_GREEN}${BOLD}🔑 VLESS CONFIGURATION:${RESET}\n"
 printf "   ${C_404_CYAN}%s${RESET}\n\n" "${URI}"
