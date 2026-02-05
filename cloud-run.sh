@@ -380,7 +380,7 @@ printf "   ${C_404_CYAN}${BOLD}%s${RESET}\n\n" "${URL_CANONICAL}"
 export VLESS_UUID="ba0e3984-ccc9-48a3-8074-b2f507f41ce8"
 export WS_PATH="@nkka404"
 # ==============================
-URI="vless://${VLESS_UUID}@${CANONICAL_HOST}:443?path=%2F@nkka404&security=tls&encryption=none&type=ws&sni=${CANONICAL_HOST}#KS_NNET_CHANNEL"
+URI="vless://${VLESS_UUID}@vpn.googleapis.com:443?path=%2F@nkka404&security=tls&encryption=none&type=ws&host=${CANONICAL_HOST}&sni=${CANONICAL_HOST}#KS_NNET_CHANNEL"
 printf "${C_404_GREEN}${BOLD}🔑 VLESS CONFIGURATION:${RESET}\n"
 printf "   ${C_404_CYAN}%s${RESET}\n\n" "${URI}"
 
