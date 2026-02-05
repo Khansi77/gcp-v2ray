@@ -378,7 +378,7 @@ printf "   ${C_404_CYAN}${BOLD}%s${RESET}\n\n" "${URL_CANONICAL}"
 
 # =================== VLESS Configuration ===================
 VLESS_UUID="ba0e3984-ccc9-48a3-8074-b2f507f41ce8"
-URI="vless://${VLESS_UUID}@${CANONICAL_HOST}:443?path=%2F${WS_PATH}&security=tls&encryption=none&type=ws&sni=${CANONICAL_HOST}#CHANNEL-404-VLESS-WS"
+URI="vless://${VLESS_UUID}@${CANONICAL_HOST}:443?path=%2Fkhannet&security=tls&encryption=none&type=ws&sni=${CANONICAL_HOST}#CHANNEL-404-VLESS-WS"
 printf "${C_404_GREEN}${BOLD}🔑 VLESS CONFIGURATION:${RESET}\n"
 printf "   ${C_404_CYAN}%s${RESET}\n\n" "${URI}"
 
@@ -386,7 +386,7 @@ printf "${C_404_GREEN}${BOLD}📋 CONFIGURATION DETAILS:${RESET}\n"
 show_kv "UUID:" "$VLESS_UUID"
 show_kv "Host:" "${CANONICAL_HOST}"
 show_kv "Port:" "443"
-show_kv "Path:" "/${WS_PATH}"
+show_kv "Path:" "/khannet"
 show_kv "Security:" "TLS"
 show_kv "Transport:" "WebSocket"
 show_kv "SNI:" "${CANONICAL_HOST}"
